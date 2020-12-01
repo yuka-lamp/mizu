@@ -35,6 +35,7 @@ the_post();
 <div class="single__merchant__info">
 <div class="single__merchant__info-wrap">
 <div class="single__merchant__info-txt w-100">
+<p class="tag text-white bg-primary">当サイトおすすめ業者</p>
 <h3><?php the_title(); ?></h3>
 <div class="mb-3 row mx-0">
 <div class="col-md">
@@ -71,7 +72,7 @@ the_post();
 </div>
 </div>
 <!-- single__merchant__info -->
-<div class="mt-3">
+<div class="mt-3 w-100">
 <div class="merchant__inner__cta">
   <div class="d-block text-center p-0 mb-1">
 <img class="img-switch" src="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png" alt="" srcset="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png 1x, <?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign@2x.png 2x">
@@ -389,8 +390,11 @@ the_post();
 </div>
 <!-- #menu1 -->
 
-<div class="mb-5">
+<div class="mt-3 w-100">
 <div class="merchant__inner__cta">
+  <div class="d-block text-center p-0 mb-1">
+<img class="img-switch" src="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png" alt="" srcset="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png 1x, <?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign@2x.png 2x">
+</div>
 <a class="d-block text-center p-0 mb-2" href="tel:0120-275-023">
 <img class="img-switch" src="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc.png" alt="" srcset="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc.png 1x, <?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc@2x.png 2x">
 </a>
@@ -399,8 +403,6 @@ the_post();
 </a>
 </div>
 </div>
-</div>
-<!-- .merchant__inner__cta -->
 
 <div id="menu3" class="case origin__inner mt-4">
 <h3><span>事例紹介</span></h3>
@@ -615,7 +617,7 @@ the_post();
 </div>
 <!-- #menu3 -->
 
-<div class="flow origin__inner">
+<div class="flow origin__inner w-100">
   <h3><span>ご利用の流れ</span></h3>
   <div class="origin__inner__wrap">
     <div class="origin__inner__wrap-item">
@@ -778,8 +780,11 @@ the_post();
 </div>
 <!-- #menu5 -->
 
-<div class="mt-5">
+<div class="mt-3 w-100">
 <div class="merchant__inner__cta">
+  <div class="d-block text-center p-0 mb-1">
+<img class="img-switch" src="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png" alt="" srcset="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign.png 1x, <?php echo $wp_url; ?>/dist/images/btn_cta_tel_campaign@2x.png 2x">
+</div>
 <a class="d-block text-center p-0 mb-2" href="tel:0120-275-023">
 <img class="img-switch" src="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc.png" alt="" srcset="<?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc.png 1x, <?php echo $wp_url; ?>/dist/images/btn_cta_tel_pc@2x.png 2x">
 </a>
@@ -789,7 +794,7 @@ the_post();
 </div>
 </div>
 
-<div class="d-block text-center my-5">
+<div class="d-block text-center my-5 w-100">
   <a class="border-primary border-bottom" href="<?php echo $home; ?>">業者一覧に戻る</a>
 </div>
 
